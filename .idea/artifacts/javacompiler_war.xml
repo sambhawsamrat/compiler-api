@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="javacompiler:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>javacompiler</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="javacompiler-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="javacompiler:war exploded" />
+    </root>
+  </artifact>
+</component>
